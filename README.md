@@ -29,14 +29,15 @@ Key changes in this project include:
 - Modifications for fine-tuning Tacotron 2 on a small dataset (CMU Arctic bdl)
 - Changes to remove the post-net module for the ablation study
 
-## How to Run
-
-### 1. Clone the Original Repository
-```bash
+How to Run
+1. Clone the Original Repository
+bash
+Copy code
 git clone https://github.com/NVIDIA/DeepLearningExamples.git
 cd DeepLearningExamples/PyTorch/SpeechSynthesis/Tacotron2
-### 2. Set Up the Environment
-```bash
+2. Set Up the Environment
+bash
+Copy code
 python3 -m venv tacotron_env
 source tacotron_env/bin/activate
 pip install --upgrade pip wheel
@@ -47,8 +48,7 @@ Download both Tacotron 2 and WaveGlow checkpoints and place them in the Tacotron
 
 4. Perform Inference
 bash
-Copy
-Edit
+Copy code
 python inference.py --tacotron2 <path_to_tacotron2_checkpoint> \
                     --waveglow <path_to_waveglow_checkpoint> \
                     --wn-channels 256 \
@@ -61,8 +61,7 @@ Replace <path_to_tacotron2_checkpoint> and <path_to_waveglow_checkpoint> with th
 To train Tacotron 2 on the LJSpeech dataset:
 
 bash
-Copy
-Edit
+Copy code
 bash scripts/prepare_dataset.sh
 bash scripts/train_tacotron2.sh
 6. Fine-tune on CMU Arctic bdl Dataset
