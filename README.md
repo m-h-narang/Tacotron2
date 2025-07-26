@@ -35,10 +35,8 @@ Key changes in this project include:
 ```bash
 git clone https://github.com/NVIDIA/DeepLearningExamples.git
 cd DeepLearningExamples/PyTorch/SpeechSynthesis/Tacotron2
-2. Set Up the Environment
-bash
-Copy
-Edit
+### 2. Set Up the Environment
+```bash
 python3 -m venv tacotron_env
 source tacotron_env/bin/activate
 pip install --upgrade pip wheel
