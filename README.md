@@ -1,6 +1,6 @@
 # Tacotron 2 on Hábrók — Speech Synthesis
 
-This project customizes the [NVIDIA Tacotron 2 implementation](https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/SpeechSynthesis/Tacotron2) for training and inference on the Hábrók cluster as part of the Voice Technology MSc. 2024–2025 Speech Synthesis 2 course.
+This project customizes the [NVIDIA Tacotron 2 implementation](https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/SpeechSynthesis/Tacotron2) for training and inference on the Hábrók cluster.
 
 ---
 
